@@ -1,0 +1,39 @@
+Prefix: '&8&l[&e&lMore&c&lHealth&8&l] '
+
+Inventory:
+  heart:
+    title: '&8&l[&a&l+&8&l] &c&lHeart'
+    item-health: BOOK
+    item-health-name: '&8&l[&a&l+1&8&l] &c&lHeart'
+    item-health-lore: 
+    - '&7Click to get 1 extra '
+    - '&7heart in exchange for 15 xp'
+    - '&a'
+    - '&7&l>> &a&lClick &7&l<<'
+    requiriment-experience-1hearth: 15
+    #XP necesaria para conseguir 1 cora
+    exit: BARRIER
+    exit-name: '&c&lExit'
+    exit-lore: 
+    - '&7Exit from the menu'
+    
+    decor: GRAY_STAINED_GLASS_PANE
+  confirm:
+    title: '&a&lConfirm &7&lor &c&lDeny'
+    item-confirm: EMERALD_BLOCK
+    item-confirm-name: '&a&lConfirm'
+    item-confirm-lore:
+    - '&7Confirm?, You are' 
+    - '&cgoing to spend 10 experience'
+    sound-claim: BLOCK_NOTE_BLOCK_PLING
+    plus-heart: 1
+    title: '&b&l%player% &c&lHEART'
+    subtitle: '&a&lUP &8&l[&a&l+1&8&l]'
+    
+    item-declive: REDSTONE_BLOCK
+    item-declive-name: '&c&lDeny'
+    item-declive-lore: 
+    - '&7Cancel?, You are '
+    - '&cgoing to leave the menu'
+    
+    decor: GRAY_STAINED_GLASS_PANE
