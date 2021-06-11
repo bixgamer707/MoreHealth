@@ -1,0 +1,11 @@
+#This configuration file is for all the messages of the plugin remember that if you find a message that cannot be changed, do not forget to say it in spigot
+
+####################################
+# 	   MESSAGES PLUGIN             #
+####################################
+
+no-permission: '&cYou do not have permissions to execute this command.'
+reload-message: '&aConfiguration files have been reloaded.'
+insuficient-experience: '&cYou lack experience to buy 1 heart.'
+claim-heart: '&aYou got &e1 &aheart in exchange for &e10 &aexperience&7.'
+option-declive: ''
