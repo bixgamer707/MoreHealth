@@ -1,0 +1,15 @@
+main: bixgamer707.morehealth.MoreHealth
+version: 1.3.5
+author: bixgamer707
+api-version: 1.13
+name: MoreHealth
+softdepend: [Vault, PlaceholderAPI]
+
+commands:
+  morehealth:
+    description: MoreHealth's main command.
+    aliases: [mh,mht]
+  hearts:
+    description: Open the gui to get more hearts.
+  players: 
+    description: Opens a menu that shows you the information of the connected players.

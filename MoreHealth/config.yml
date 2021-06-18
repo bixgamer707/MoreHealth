@@ -1,0 +1,96 @@
+Prefix: '&8&l[&e&lMore&c&lHealth&8&l] '
+#
+max-hearts: 10
+
+Inventory:
+  heart:
+    #The title of the first inventory
+    title: '&8&l[&a&l+&8&l] &c&lHeart'    
+#    
+    #The inventory item
+    item-health: BOOK
+#   
+    #The name of the item
+    item-health-name: '&8&l[&a&l+1&8&l] &c&lHeart'
+#    
+    #The lore of the item
+    item-health-lore: 
+    - '&7Click to get 1 extra '
+    - '&7heart in exchange for 15 xp'
+    - '&a'
+    - '&7&l>> &a&lClick &7&l<<'
+#    
+    #The xp or money, the player needs to buy 1 heart
+    requiriment-experience: 15
+    requiriment-money: 2000
+    
+    #XP, MONEY
+    change-requiriment: XP
+    
+    change-requiriment-xp: DIAMOND_BLOCK 
+    change-requiriment-xp-name: '&b&lXP'
+    change-requiriment-xp-lore: 
+    - '&71 heart is worth &e15 '
+    - '&7experience levels.'
+    - '&a'
+    - '&b&lCost: &a&l%XP_player%/&e&l15&7&lXP'
+    
+    change-requiriment-money: EMERALD_BLOCK
+    change-requiriment-money-name: '&a&lMONEY'
+    change-requiriment-money-lore: 
+    - '&7Buying a heart with money is '
+    - '&7worth &a$2000.'
+    - '&a'
+    - '&b&lCost: &e&l$2000'
+    
+    #The item to leave the inventory
+    exit: BARRIER
+#
+    #The name of the item to exit the menu
+    exit-name: '&c&lExit'
+#
+     #The lore of the item
+    exit-lore: 
+    - '&7Exit from the menu'
+#
+    decor: GRAY_STAINED_GLASS_PANE
+#   
+#    
+#    
+  confirm:
+    #The title of the inventory second inventory
+    title: '&a&lConfirm &7&lor &c&lDeny'
+#    
+    #Item to accept
+    item-confirm: EMERALD_BLOCK
+    item-confirm-name: '&a&lConfirm'
+    item-confirm-lore:
+    - '&7Confirm?, You are' 
+    - '&cgoing to spend 10 experience'
+#
+    #The sound it plays when accepting
+    sound-claim: BLOCK_NOTE_BLOCK_PLING
+#    
+    #The heart that gives for certain levels of xp
+    plus-heart: 1
+#    
+    #The title and subtitle that it sends to all players when the player buys the heart
+    titlesend: '&b&l%player% &c&lHEART'
+    subtitle: '&a&lUP &8&l[&a&l+1&8&l]'
+#    
+    #Item to declive
+    item-declive: REDSTONE_BLOCK
+    item-declive-name: '&c&lDeny'
+    item-declive-lore: 
+    - '&7Cancel?, You are '
+    - '&cgoing to leave the menu'
+#    
+    decor: GRAY_STAINED_GLASS_PANE
+  players:
+    title: '&8&l[&a&l+&8&l] &b&lPlayers'
+    heads-name: '&9%players%'
+    heads-lore: 
+    - '&7Hearts:  &e%morehealth_hearts%'
+    - '&7Max Hearts: &e%morehealth_max_hearts%'
+    - '&7Ping: &e%player_ping%'
+    
